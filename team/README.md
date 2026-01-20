@@ -12,6 +12,7 @@
 ![Qais Poonawala](qais-poonawala.jpg)
 
 **Role:** Sr. TAM
+**Email:** qppoonaw@amazon.com
 
 ---
 
