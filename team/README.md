@@ -9,7 +9,7 @@
 ---
 
 ## Qais Poonawala
-![Qais Poonawala](qais-poonawal.jpg)
+![Qais Poonawala](qais-poonawala.jpg)
 
 **Role:** Developer
 
