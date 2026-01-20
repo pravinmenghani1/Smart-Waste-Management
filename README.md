@@ -63,7 +63,7 @@ See [Team Members](team/README.md) for photos and details.
 
 ## 📄 License
 
-Proprietary - PMC/PCMC Pune Municipal Corporation
+NA
 
 ## 🎓 AWS Services Used
 
