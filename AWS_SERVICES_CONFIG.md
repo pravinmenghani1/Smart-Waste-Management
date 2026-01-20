@@ -350,8 +350,8 @@ Permissions Policy:
   "InstanceType": "m5.large",
   "ImageId": "ami-09c5d660bc51c5b3c",
   "State": "running",
-  "PublicIpAddress": "98.82.140.84",
-  "PrivateIpAddress": "172.31.76.147",
+  "PublicIpAddress": "YOUR_EC2_PUBLIC_IP",
+  "PrivateIpAddress": "YOUR_EC2_PRIVATE_IP",
   "SubnetId": "subnet-029108428b7076448",
   "VpcId": "vpc-0ca3fe52a844cbae1",
   "SecurityGroups": ["sg-02fbe86a8387d3438"],
@@ -370,22 +370,22 @@ Inbound Rules:
     "IpProtocol": "tcp",
     "FromPort": 22,
     "ToPort": 22,
-    "IpRanges": [{"CidrIp": "103.197.74.130/32"}]
+    "IpRanges": [{"CidrIp": "YOUR_ALLOWED_IP/32"}]
   },
   {
     "IpProtocol": "tcp",
     "FromPort": 3000,
     "ToPort": 3001,
     "IpRanges": [
-      {"CidrIp": "58.84.60.66/32"},
-      {"CidrIp": "103.197.74.130/32"}
+      {"CidrIp": "YOUR_ALLOWED_IP/32"},
+      {"CidrIp": "YOUR_ALLOWED_IP/32"}
     ]
   },
   {
     "IpProtocol": "tcp",
     "FromPort": 8080,
     "ToPort": 8080,
-    "IpRanges": [{"CidrIp": "103.197.74.130/32"}]
+    "IpRanges": [{"CidrIp": "YOUR_ALLOWED_IP/32"}]
   }
 ]
 ```

@@ -143,8 +143,8 @@ void readAndPublishWeights() {
 
 ### WiFi Credentials
 ```cpp
-char ssid[] = "SWTHME24";
-char pass[] = "5478Pdm#$kL";
+char ssid[] = "YOUR_WIFI_SSID";
+char pass[] = "YOUR_WIFI_PASSWORD";
 ```
 
 ### AWS IoT Core

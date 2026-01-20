@@ -12,7 +12,7 @@ const cognito = new AWS.CognitoIdentityServiceProvider({
 
 const USER_POOL_ID = 'us-east-1_DAQ8siApb';
 const CLIENT_ID = '39pjnu43u04ju374bekro15e0d';
-const JWT_SECRET = process.env.JWT_SECRET || 'waste-management-secret-key';
+const JWT_SECRET = process.env.JWT_SECRET || process.env.JWT_SECRET || 'your-secret-key-here';
 
 // Helper function to create secret hash
 function createSecretHash(username, clientId, clientSecret) {

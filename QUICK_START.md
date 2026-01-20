@@ -2,7 +2,7 @@
 
 ## System Access
 
-**Dashboard URL:** http://98.82.140.84:3000/  
+**Dashboard URL:** http://YOUR_EC2_PUBLIC_IP:3000/  
 **AWS Region:** us-east-1  
 **AWS Account:** YOUR_AWS_ACCOUNT_ID
 
@@ -106,7 +106,7 @@ curl http://localhost:8080/api/sensors/latest
 ```
 
 ### 5. Check Frontend
-Open browser: http://98.82.140.84:3000/
+Open browser: http://YOUR_EC2_PUBLIC_IP:3000/
 
 ---
 
@@ -404,7 +404,7 @@ logger.setLevel(logging.DEBUG)
 ## Quick Reference
 
 ### URLs
-- Dashboard: http://98.82.140.84:3000/
+- Dashboard: http://YOUR_EC2_PUBLIC_IP:3000/
 - Backend API: http://localhost:8080/
 - AWS Console: https://console.aws.amazon.com/
 

@@ -156,7 +156,7 @@ s3://iotimplementation/final/
 ## Key Information
 
 ### System Details
-- **Dashboard URL:** http://98.82.140.84:3000/
+- **Dashboard URL:** http://YOUR_EC2_PUBLIC_IP:3000/
 - **AWS Account:** YOUR_AWS_ACCOUNT_ID
 - **AWS Region:** us-east-1
 - **EC2 Instance:** i-00d3c76e4d3522ec8

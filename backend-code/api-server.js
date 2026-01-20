@@ -23,7 +23,7 @@ const s3Client = new S3Client({
 
 // Configure CORS
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://127.0.0.1:3000', 'http://3.80.232.251:3000', 'http://98.82.140.84:3000'],
+  origin: ['http://localhost:3000', 'http://127.0.0.1:3000', 'http://YOUR_EC2_PUBLIC_IP:3000', 'http://YOUR_EC2_PUBLIC_IP:3000'],
   credentials: true
 }));
 app.use(express.json({ limit: '50mb' }));
@@ -666,5 +666,5 @@ app.get('/api/tickets/:ticketId', async (req, res) => {
 app.listen(port, '0.0.0.0', () => {
   console.log(`Smart Waste Management API running on port ${port}`);
   console.log(`Health check: http://localhost:${port}/api/health`);
-  console.log(`External access: http://98.82.140.84:${port}/api/health`);
+  console.log(`External access: http://YOUR_EC2_PUBLIC_IP:${port}/api/health`);
 });

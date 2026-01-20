@@ -5,7 +5,7 @@
 #include <HX711.h>
 
 // WiFi credentials
-const char* ssid = "SWTHME24";
+const char* ssid = "YOUR_WIFI_SSID";
 const char* password = "YOUR_WIFI_PASSWORD";
 
 // AWS IoT Core settings

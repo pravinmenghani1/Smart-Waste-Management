@@ -7,7 +7,7 @@
 📅 DATE: January 18, 2026
 🌍 REGION: us-east-1
 🔐 AWS ACCOUNT: YOUR_AWS_ACCOUNT_ID
-🌐 DASHBOARD: http://98.82.140.84:3000/
+🌐 DASHBOARD: http://YOUR_EC2_PUBLIC_IP:3000/
 
 ═══════════════════════════════════════════════════════════════════════════════
 
@@ -66,7 +66,7 @@ STORAGE LAYER:
   • Size: 4.2 MB
 
 APPLICATION LAYER:
-  • EC2: m5.large (98.82.140.84)
+  • EC2: m5.large (YOUR_EC2_PUBLIC_IP)
   • Backend: Node.js + Express (port 8080)
   • Frontend: React + Vite (port 3000)
   • UI: shadcn/ui + Tailwind CSS
@@ -269,12 +269,12 @@ Start Reading:
 📞 SYSTEM INFORMATION
 ═══════════════════════════════════════════════════════════════════════════════
 
-Dashboard:        http://98.82.140.84:3000/
+Dashboard:        http://YOUR_EC2_PUBLIC_IP:3000/
 AWS Account:      YOUR_AWS_ACCOUNT_ID
 AWS Region:       us-east-1
 EC2 Instance:     i-00d3c76e4d3522ec8
-Public IP:        98.82.140.84
-Private IP:       172.31.76.147
+Public IP:        YOUR_EC2_PUBLIC_IP
+Private IP:       YOUR_EC2_PRIVATE_IP
 Security Group:   sg-02fbe86a8387d3438
 DynamoDB Table:   SensorData
 Lambda Function:  WasteManagementDataIngestion

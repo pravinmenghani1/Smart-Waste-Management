@@ -62,4 +62,4 @@ cd /home/ubuntu/waste-management-system
 npm run dev -- --host 0.0.0.0 --port 3000
 ```
 
-Access at: http://98.82.140.84:3000/
+Access at: http://YOUR_EC2_PUBLIC_IP:3000/

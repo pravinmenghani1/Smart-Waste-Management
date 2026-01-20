@@ -5,7 +5,7 @@ A complete IoT-based waste management solution using ESP32 sensors, AWS IoT Core
 
 **Deployment Date:** January 2026  
 **AWS Region:** us-east-1  
-**Public Dashboard:** http://98.82.140.84:3000/
+**Public Dashboard:** http://YOUR_EC2_PUBLIC_IP:3000/
 
 ---
 
@@ -142,19 +142,19 @@ ESP32 → IoT Core → Lambda → DynamoDB
 #### Instance Details
 - **Instance ID:** i-00d3c76e4d3522ec8
 - **Type:** m5.large
-- **Public IP:** 98.82.140.84
-- **Private IP:** 172.31.76.147
+- **Public IP:** YOUR_EC2_PUBLIC_IP
+- **Private IP:** YOUR_EC2_PRIVATE_IP
 - **OS:** Ubuntu Linux
 - **Region:** us-east-1f
 - **Security Group:** sg-02fbe86a8387d3438 (launch-wizard-11)
 
 #### Security Group Rules
 **Inbound:**
-- Port 22 (SSH): 103.197.74.130/32
-- Port 80 (HTTP): 103.197.74.130/32
-- Port 3000-3001 (Frontend): 58.84.60.66/32, 103.197.74.130/32
-- Port 8080 (Backend API): 103.197.74.130/32
-- Port 1883, 8883 (MQTT): 103.197.74.130/32
+- Port 22 (SSH): YOUR_ALLOWED_IP/32
+- Port 80 (HTTP): YOUR_ALLOWED_IP/32
+- Port 3000-3001 (Frontend): YOUR_ALLOWED_IP/32, YOUR_ALLOWED_IP/32
+- Port 8080 (Backend API): YOUR_ALLOWED_IP/32
+- Port 1883, 8883 (MQTT): YOUR_ALLOWED_IP/32
 
 **Outbound:**
 - All traffic allowed
@@ -225,7 +225,7 @@ ESP32 → IoT Core → Lambda → DynamoDB
 - Handled by auth.js module
 
 #### Configuration
-- **CORS Origins:** localhost:3000, 127.0.0.1:3000, 98.82.140.84:3000
+- **CORS Origins:** localhost:3000, 127.0.0.1:3000, YOUR_EC2_PUBLIC_IP:3000
 - **DynamoDB Region:** us-east-1
 - **Table:** SensorData
 
@@ -379,8 +379,8 @@ ESP32 Sensor → IoT Core → Lambda (Alert Check) → DynamoDB
 ## Network Architecture
 
 ### Public Access
-- **Dashboard URL:** http://98.82.140.84:3000/
-- **API URL:** http://98.82.140.84:8080/ (restricted by security group)
+- **Dashboard URL:** http://YOUR_EC2_PUBLIC_IP:3000/
+- **API URL:** http://YOUR_EC2_PUBLIC_IP:8080/ (restricted by security group)
 
 ### Internal Communication
 - Frontend → Backend: Via Vite proxy (localhost:8080)
@@ -529,7 +529,7 @@ ps aux | grep node
 - HX711 SCK: GPIO pin (see code)
 
 ### WiFi Configuration
-- SSID: SWTHME24
+- SSID: YOUR_WIFI_SSID
 - Security: WPA2
 
 ### AWS IoT Endpoint
