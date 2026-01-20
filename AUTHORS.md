@@ -35,8 +35,7 @@ Special thanks to:
 
 ## License
 
-Proprietary - PMC/PCMC Pune Municipal Corporation
-
+NA
 ---
 
 For questions or contributions, please contact the authors above.
