@@ -3,7 +3,7 @@
 ## Pravinkumar Menghani
 ![Pravinkumar Menghani](pravinkumar-menghani.jpg)
 
-**Role:** Developer  
+**Role:** TAM  
 **Email:** pmenghan@amazon.com
 
 ---
@@ -11,7 +11,7 @@
 ## Qais Poonawala
 ![Qais Poonawala](qais-poonawala.jpg)
 
-**Role:** Developer
+**Role:** Sr. TAM
 
 ---
 
